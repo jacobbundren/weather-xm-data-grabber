@@ -101,7 +101,7 @@ def get_historical_data(s):
 def write_station_data():
     """
     Writes station data to file using station ID as <id>.json
-    :return:
+    :return: none
     """
     try:
         Path('data/').mkdir(exist_ok=True)
